@@ -10,7 +10,6 @@ const Header = () => {
     <Container position='static'>
       <Toolbar>
         <img src={logo} alt="img" style={{width:40} }/>
-        
       </Toolbar>
     </Container>
   )

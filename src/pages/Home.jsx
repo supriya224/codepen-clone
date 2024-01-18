@@ -2,10 +2,12 @@ import React from 'react'
 import Header from '../components/shared/Header/Header'
 import Footer from '../components/shared/Footer/Footer'
 import Code from '../components/core/Code'
+// import DataProvider from '../context/DataProvider'
 
 const Home = () => {
   return (
-    <div>
+
+    <div> 
         <Header/>
         <Code/>
         <Footer/>
