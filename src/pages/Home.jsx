@@ -1,18 +1,16 @@
-import React from 'react'
-import Header from '../components/shared/Header/Header'
-import Footer from '../components/shared/Footer/Footer'
-import Code from '../components/core/Code'
-// import DataProvider from '../context/DataProvider'
+import Header from "../components/shared/Header/Header";
+import Code from "../components/core/Code";
+import Result from "../components/Result/Result";
+
 
 const Home = () => {
   return (
+    <>
+      <Header />
+      <Code />
+      <Result />
+    </>
+  );
+};
 
-    <div> 
-        <Header/>
-        <Code/>
-        <Footer/>
-    </div>
-  )
-}
-
-export default Home
+export default Home;

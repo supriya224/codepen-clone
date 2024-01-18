@@ -1,6 +1,6 @@
 .CodeMirror {
     height: 340px !important;
-    color: #fff;
+    color: #fff !important;
   }
   
   .CodeMirror-gutters {
