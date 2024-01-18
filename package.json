@@ -1,4 +1,5 @@
 {
+  "homepage": "https://supriya224.github.io/codepen-clone",
   "name": "codepen-clone",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "codemirror": "5.65.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-codemirror2": "^7.3.0",
     "react-dom": "^18.2.0",
@@ -18,6 +20,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
